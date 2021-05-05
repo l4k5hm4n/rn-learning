@@ -1,11 +1,10 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { Text, TouchableOpacity, View, StyleSheet, } from 'react-native';
+import { Text, View, StyleSheet, } from 'react-native';
 import LottieView from 'lottie-react-native';
 import Carousel from 'react-native-snap-carousel';
 
 
 export default function App() {
-  const [activeIndex, setactiveIndex] = useState(0)
   const [carouselItems, setcarouselItems] = useState([
     {
         title:"Item 1",
